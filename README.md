@@ -12,7 +12,7 @@ The application has been modified to use information from past same-session chat
 
 The user interface is made using StreamLit. All code logic is stored in _app.py_.
 
-<a href="https://huggingface.co/spaces/victorauyeungxf/AI-Chatbot-Zephyr7b">
+<a href="https://huggingface.co/spaces/victorauyeungxf/AI-Chatbot-Zephyr7b" target="_blank">
   <img src="https://github.com/VictorAuYeung/AI-Chatbot/assets/69711600/ad5c3033-3a33-4297-9aad-f6a4444c5edf" alt="Try it on HuggingFace Spaces" width="170">
 </a>
 
