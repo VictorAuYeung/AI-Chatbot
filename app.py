@@ -26,7 +26,7 @@ def text2text(context, text):
     last_response = output_str.rfind("<|assistant|>")
 
     output_text = output_str[last_response + 13:]
-    print(output_text)
+    #print(output_text)
     output_text = output_text.replace('\n', '  \n')
     #print(output_text)
     return output_text
