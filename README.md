@@ -39,7 +39,14 @@ The user interface is made using StreamLit. All code logic is stored in _app.py_
 ![image](https://github.com/VictorAuYeung/AI-Chatbot/assets/69711600/832548c7-599a-43ff-b7c8-4b6a7a8d1caa)
 * This prompt expects a response that has **line breaks**, e.g. song lyrics, poems, stories, etc. <br>
 
-## Benefits
+## Some Background Logic
+<img src="https://github.com/VictorAuYeung/AI-Chatbot/assets/69711600/25895589-5036-4e2a-9bd2-cfc20b1ef868" width="90%"/>
+<br>
+* This system can definitely be improved upon, but serves as a basis for the continuation of AI conversations.
+<br>
+
+
+## Project Benefits
 There are some benefits of using a pre-trained LLM model, as well as implementing chat history and contextual input features.
 ### 1. Fast Performance
 * This project uses HuggingFace's Inference API, as well as a less intensive 7b model. Hence, response generation is relatively quick and inexpensive, and may be suitable for most end-users. (e.g. website support, knowledgebase support, ticket support etc.)
