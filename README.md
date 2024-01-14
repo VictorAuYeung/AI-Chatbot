@@ -10,6 +10,8 @@ For more information: 🦾 [Zephyr-7B-Beta](https://huggingface.co/HuggingFaceH4
 In addition, this project allows users to input contexts to generate customized responses. 
 The application has been modified to use information from past same-session chats, meaning responses generated will be more cohesive with contextual information, _e.g. using information from a user's previous message._
 
+The user interface is made using StreamLit. All code logic is stored in _app.py_.
+
 ## 1. Main User Interface
 ![image](https://github.com/VictorAuYeung/AI-Chatbot/assets/69711600/f5e0451a-dcfa-4df3-bbbe-0b6da9938ef7)
 
@@ -38,7 +40,7 @@ The application has been modified to use information from past same-session chat
 * This prompt expects a response that has **line breaks**, e.g. song lyrics, poems, stories, etc. <br>
 
 ## Benefits
-These are some of the benefits of using the pre-trained LLM model and also the implementation of chat history and contextual input into the project.
+There are some benefits of using a pre-trained LLM model, as well as implementing chat history and contextual input features.
 ### 1. Fast Performance
 * This project uses HuggingFace's Inference API, as well as a less intensive 7b model. Hence, response generation is relatively quick and inexpensive, and may be suitable for most end-users. (e.g. website support, knowledgebase support, ticket support etc.)
 
