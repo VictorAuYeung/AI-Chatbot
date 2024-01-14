@@ -1,7 +1,7 @@
 # AI-Chatbot (Contextual Text Generation)
 
 ## Project Description
-I created this project on my own as a web application, implementing an AI chat bot using the Zephyr-7B-β Large-Language-Model, utilizing context and chat session history to assist users and hold cohesive and lifelike conversations. It closely mimics models like ChatGPT, but trades extensive training for a more optimized performance.
+I created this project on my own, implementing an AI chat bot using the Zephyr-7B-β Large-Language-Model, and utilizing context and chat session history to assist users so as to hold more lifelike conversations. It closely mimics conversational models like ChatGPT, but trades extensive training for a more optimized performance.
 
 The model being used, Zephyr-7B-β, is itself a finetuned from the MistralAI/Mistral-7B-v0.1 model. This model is a series of AI language models specifically trained to act as helpful assistants.
 
