@@ -3,7 +3,7 @@
 ## Project Description
 I created this personal project by implementing an AI chat bot using the Zephyr-7B-β Large-Language-Model, and utilizing context and chat session history to hold more lifelike conversations. It has a simple UI and mimics conversational AI models like ChatGPT, but trades extensive training for a more optimized performance.
 
-The model being used, Zephyr-7B-β, is itself a finetuned from the MistralAI/Mistral-7B-v0.1 model. This model is a series of AI language models specifically trained to act as helpful assistants.
+The model being used, Zephyr-7B-β, is itself finetuned from the MistralAI/Mistral-7B-v0.1 model. This model is a series of AI language models specifically trained to act as helpful assistants.
 
 For more information: 🦾 [Zephyr-7B-Beta](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta)
 
@@ -55,7 +55,7 @@ This project is also hosted on HuggingFace Spaces. To try the [live demo](https:
 ## Project Benefits
 There are some benefits of using a pre-trained LLM model, as well as implementing chat history and contextual input features.
 ### 1. Fast Performance
-* This project uses HuggingFace's Inference API, as well as a less intensive 7b model. Hence, response generation is relatively quick and inexpensive, and may be suitable for most end-users. (e.g. website support, knowledgebase support, ticket support etc.)
+* This project uses a less intensive 7b large language model. Hence, response generation is relatively quick and inexpensive, and may be suitable for most end-users. (e.g. website support, knowledgebase support, ticket support etc.)
 
 ### 2. Relatively Lifelike Responses
 * Since this project implements context and historical messsages to develop its response output, conversations will feel relatively more coherent overall. It can hold full length conversations, answer queries and assist in most chat requests.
@@ -64,16 +64,16 @@ There are some benefits of using a pre-trained LLM model, as well as implementin
 * This project has alot of potential to be adapted into a variety of use cases, with an easy-to-understand user interface for most end-users. Possible use cases include (and are not limited to) creating custom character personality AI (with context), virtual conversational companionship (with session responses) and query/data manipulation (using the extensive text generation model).
 
 ## Limitations
-These limitations are usually present in most AI models and are not a cause of concern for this project, of which the aim is to create a helpful, easy-to-use chatbot with contextual capabilities.
+Most limitations are usually present in all AI models and are not a cause of concern for this project, of which the aim is to create a helpful, simple and easy-to-use chatbot with contextual capabilities.
 ### 1. Rate-Limiting
 * This project uses HuggingFace's Inference API, meaning all responses are rate-limited. As such, when generating larger responses, text may be cut-off before the LLM can generate the entire, complete response.
-* This can be solved by using HuggingFace's Inference Endpoints, or running a pipeline on the local device.
+* This can be easily solved by using HuggingFace's Inference Endpoints, or running a pipeline on the local device it is hosted on.
 
 ### 2. Response Generation
 * This model may generate incomplete, false or erroneous responses at times.
-* This issue is related to the underlying model's limitations, and may be improved upon in the future.
+* This issue is related to the underlying model's limitations, which may be improved upon in the future.
 
 ### 3. Potential Ethical Concerns
 * The underlying model, Zephyr-7B-β, has not been aligned to human preferences for safety within the RLHF phase or deployed with in-the-loop filtering of responses like ChatGPT. Hence, it can produce harmful/rude/unfiltered responses especially when prompted to do so.
-* This issue is once again related to the underlying model's limitations, and may be improved upon in the future.
+* This issue is once again related to the underlying model's limitations, which may or may not be improved upon in the future.
 
