@@ -23,7 +23,8 @@ The application has been modified to use information from past same-session chat
 
 ## Examples
 ### 1. Main User Interface
-![image](https://github.com/VictorAuYeung/AI-Chatbot/assets/69711600/df265c48-c787-4db2-8a97-6a732d2fd9b6)
+![image](https://github.com/VictorAuYeung/AI-Chatbot/assets/69711600/f5e0451a-dcfa-4df3-bbbe-0b6da9938ef7)
+
 
 
 ### 2. Example Questions
