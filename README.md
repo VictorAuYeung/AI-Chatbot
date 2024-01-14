@@ -18,13 +18,13 @@ The user interface is made using StreamLit. All code logic is stored in _app.py_
 ## How to Launch this Project on Your Own
 **1.** Download _app.py_ into your directory.
    
-**2.** Fill in your HuggingFace API Token within the _.env_ file.
+**2.** Create a _.env_ file in the same directory, and add in your HuggingFace API Token using ```HUGGINGFACEHUB_API_TOKEN = ""```.
    
-**3.** Ensure all python modules are installed through pip.
+**3.** Ensure all required python modules are correctly installed through pip.
    
 **4.** To run, use **'streamlit run app.py'** to launch the web application.
    
-**5.** Key in optional context and user query, to receive AI responses.
+**5.** On the UI, key in the optional context and user query, to receive AI responses.
 
 ## Example Prompt 1
 ![image](https://github.com/VictorAuYeung/AI-Chatbot/assets/69711600/01cbddbe-8ffd-4a64-a547-ed38575ebc39)
